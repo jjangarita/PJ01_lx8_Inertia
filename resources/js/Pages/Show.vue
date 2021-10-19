@@ -11,8 +11,9 @@
                 <div class="bg-white overflow-hidden shadow-xl sm:rounded-lg">
 
                     <inertia-link
+                    :href="route('students.create')"
                     class="flex-shrink-0 bg-green-500 text-white text-base font-semibold py-2 px-4 rounded-lg shadow-md hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-offset-2 focus:ring-offset-green-200" type="button">
-                        <button :href="route('students.create')">Agregar</button>
+                        Agregar
                     </inertia-link>
                     
 
@@ -62,13 +63,11 @@
                 </div>
             </div>
         </div>
-
-
     </app-layout>
 </template>
 
 <script>
-import AppLayout from '@/Layouts/AppLayout';
+import AppLayout from "@/Layouts/AppLayout";
 export default {
     props:{
         students: Array
@@ -76,6 +75,6 @@ export default {
     components:{
         AppLayout
     }
-    
+
 };
 </script>
