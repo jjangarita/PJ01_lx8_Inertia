@@ -43,7 +43,7 @@
             
                 <div class='flex justify-end md:gap-8 gap-4 pt-5 pb-5 pr-5'>      
                 <inertia-link
-                    :href="route('productos.index')"                    
+                    :href="route('students.index')"                    
                     class='w-auto bg-gray-500 hover:bg-gray-700 rounded-lg shadow-xl font-medium text-white px-4 py-2' type="button">
                     Cancelar
                 </inertia-link> 
