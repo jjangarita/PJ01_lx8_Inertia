@@ -1,4 +1,5 @@
 <template>
+    
     <app-layout>
         <template #header>
             <h1 class="text-center text-2xl font-bold leading-7 text-gray-300 sm:text-3xl sm:truncate py-4 bg-gradient-to-l from-gray-600 to-gray-800">
@@ -9,6 +10,8 @@
         <div class="py-12">
             <div class=" max-w-7xl mx-auto sm:px-6 lg-px-8">
                 <div class="bg-white overflow-hidden shadow-xl sm:rounded-lg">
+
+                    <!-- Boton de crear -->
 
                     <inertia-link
                     :href="route('students.create')"
@@ -67,6 +70,10 @@
 </template>
 
 <script>
+    
+
+    
+
 import AppLayout from "@/Layouts/AppLayout";
 export default {
     props:{
